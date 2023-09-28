@@ -4,7 +4,6 @@ from streamlit_autorefresh import st_autorefresh
 from google.cloud import firestore
 from google.oauth2 import service_account
 
-from queue import Queue
 import json
 
 key_dict = json.loads(st.secrets["textkey"])
