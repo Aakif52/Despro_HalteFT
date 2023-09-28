@@ -1,3 +1,4 @@
 streamlit
+streamlit-autorefresh
 google-cloud-firestore
 google-auth-oauthlib
