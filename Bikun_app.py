@@ -9,7 +9,10 @@ from queue import Queue
 import json
 
 class StringVar:
-    BIKUN_COL = "Bikun"
+    DESPRO_COL = "Bikun"
+    DISPLAY_DOC = "e52tYFjerfyvXiRk6AIm"
+    BIKUN_DOC = ""
+    RAMAI_DOC = ""
 
 key_dict = json.loads(st.secrets["textkey"])
 creds = service_account.Credentials.from_service_account_info(key_dict)
@@ -17,7 +20,7 @@ db = firestore.Client(credentials=creds)
 cb_done = threading.Event()
 q = Queue()
 
-doc_ref = db.collection(StringVar.BIKUN_COL).document("e52tYFjerfyvXiRk6AIm")
+doc_ref = db.collection(StringVar.DESPRO_COL).document(StringVar.DISPLAY_DOC)
 
 def on_snapshot(doc_snapshot, changes, read_time):
     print(f"Listener triggered!")
