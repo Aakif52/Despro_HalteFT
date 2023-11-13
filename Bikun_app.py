@@ -9,8 +9,8 @@ from queue import Queue
 import json
 
 class StringVar:
-    DESPRO_COL = "Bikun"
-    DISPLAY_DOC = "e52tYFjerfyvXiRk6AIm"
+    DESPRO_COL = "test_collection"
+    DISPLAY_DOC = "data"
     BIKUN_DOC = ""
     RAMAI_DOC = ""
 
