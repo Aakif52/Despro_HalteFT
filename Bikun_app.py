@@ -37,7 +37,7 @@ while True:
     placeholder.empty()
 
     with placeholder.container():
-        bikun_state = "Ada bikun" if data.to_dict()["Ada Bikun"] else "Gak ada bikun"
+        bikun_state = "Ada bikun" if data.to_dict()["Bikun"] else "Gak ada bikun"
         keramaian_state = "Ramai" if data.to_dict()["Ramai"] else "Tidak ramai"
         st.header('Bikun Detector')
         st.subheader(f"Keberadaan Bikun")
