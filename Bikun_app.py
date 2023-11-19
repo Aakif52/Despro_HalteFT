@@ -108,7 +108,7 @@ while True:
         st.write(bikun_state)
         st.subheader(f"Keramaian Halte")
         st.write(keramaian_state)
-        # st.subheader(f"Waktu Update Terakhir")
+        # st.write(f"Waktu Update Terakhir")
         # st.write(last_log.get("timestamp"))
 
         st.vega_lite_chart(chart_data,{
