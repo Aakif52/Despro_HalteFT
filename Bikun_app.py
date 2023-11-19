@@ -122,7 +122,11 @@ while True:
                     "type": "nominal"
                 },
                 "tooltip": [
-                    {"field": "timestamp","timeUnit": "yearmonthdatehoursminutes", "type": "temporal"},
+                    {
+                        "field": "timestamp",
+                        "timeUnit": "yearmonthdatehoursminutes", 
+                        "title": "time",
+                        "type": "temporal"},
                     {
                         "field": 'Bikun',
                         "title": "value",
@@ -149,7 +153,11 @@ while True:
                     "type": "nominal"
                 },
                 "tooltip": [
-                    {"field": "timestamp","timeUnit": "yearmonthdatehoursminutes", "type": "temporal"},
+                    {
+                        "field": "timestamp",
+                        "timeUnit": "yearmonthdatehoursminutes", 
+                        "title": "time",
+                        "type": "temporal"},
                     {
                         "field": 'Ramai',
                         "title": "value",
