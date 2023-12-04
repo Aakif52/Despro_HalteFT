@@ -138,7 +138,7 @@ while True:
                         "type": "nominal"
                     }
                 ],
-                "x": {"title": "Waktu","timeUnit": "hoursminutes", "field": "timestamp", "scale": {"type": "time"}},
+                "x": {"title": "Waktu","timeUnit": "hoursminutesseconds", "field": "timestamp", "scale": {"type": "time"}},
                 "y": {"axis": {"grid": "true"}, "field": 'Bikun', "scale": {}, "title": "Bikun", "type": "nominal"}
             },
         },)
@@ -155,7 +155,7 @@ while True:
                 "tooltip": [
                     {
                         "field": "timestamp",
-                        "timeUnit": "yearmonthdatehoursminutes", 
+                        "timeUnit": "yearmonthdatehoursminutesseconds", 
                         "title": "time",
                         "type": "temporal"},
                     {
