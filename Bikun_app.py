@@ -138,7 +138,7 @@ while True:
                         "type": "nominal"
                     }
                 ],
-                "x": {"timeUnit": "hoursminutes", "field": "timestamp", "scale": {"type": "time"}},
+                "x": {"title": "Waktu","timeUnit": "hoursminutes", "field": "timestamp", "scale": {"type": "time"}},
                 "y": {"axis": {"grid": "true"}, "field": 'Bikun', "scale": {}, "title": "Bikun", "type": "nominal"}
             },
         },)
@@ -169,7 +169,7 @@ while True:
                         "type": "nominal"
                     }
                 ],
-                "x": {"timeUnit": "hoursminutes", "field": "timestamp", "scale": {"type": "time"}},
+                "x": {"title": "Waktu", "timeUnit": "hoursminutes", "field": "timestamp", "scale": {"type": "time"}},
                 "y": {"axis": {"grid": "true"}, "field": 'Ramai', "scale": {}, "title": "Ramai", "type": "nominal"}
             },
         },)
