@@ -95,6 +95,7 @@ while True:
 
     # print(x)
     # print(y)
+    #anjay guronjay 
 
     chart_data = pd.DataFrame(q_logs_arr)
 
